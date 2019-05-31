@@ -28,20 +28,20 @@ a {
 }
 
 #rose {
-    display:block;
+    	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top: 5%;
 	height: 40%;
-    width: 40%;
+    	width: 40%;
 }
 
 #flowers {
 	margin-left: 2%;
 	margin-top: 5%;
 	height: 40%;
-    width: 40%;
-    float: left;
+    	width: 40%;
+    	float: left;
 }
 
 #bio {
@@ -51,9 +51,9 @@ a {
 }
 
 .center img {        
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
 }
 
 nav {
@@ -77,12 +77,16 @@ div
 	margin-top: 1%;
 }
 
+#colorLinks {
+	color: #DC143C;
+}
+
 span {
 	position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -20px;
-    display:none;
+    	top: 100%;
+    	left: 50%;
+    	margin-left: -20px;
+    	display:none;
 }
 
 #link {
@@ -94,43 +98,42 @@ span {
 }
 
 li {
-    float:left;
-    clear:left;
-    margin-top: 3%;
+    	float:left;
+    	clear:left;
+    	margin-top: 3%;
 }
 
 ul {
-    float:left;
-    clear:left;
+    	float:left;
+    	clear:left;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    	position: relative;
+    	display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    
+    	display: none;
+    	position: absolute;
 }
 
 .dropdown-content a {
-    text-decoration: none;
-    display: block;
+    	text-decoration: none;
+    	display: block;
 }
 
 .dropdown-content a:hover {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    	display: block;
 }
 
 input, button, submit
 {
-  border:none;
-  background-color: white;
-  font-size: 18px;
-  font-weight: bold;
+  	border:none;
+  	background-color: white;
+  	font-size: 18px;
+  	font-weight: bold;
 }
